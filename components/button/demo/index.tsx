@@ -1,0 +1,1 @@
+export { default as BaseType } from './baseType';

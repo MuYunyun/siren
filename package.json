@@ -1,0 +1,50 @@
+{
+  "name": "siren",
+  "version": "0.0.1",
+  "description": "show your components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuYunyun/siren.git"
+  },
+  "author": "muyunyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuYunyun/siren/issues"
+  },
+  "homepage": "https://github.com/MuYunyun/siren#readme",
+  "dependencies": {
+    "@types/classnames": "^2.2.7",
+    "@types/react": "^16.8.1",
+    "@types/storybook__addon-actions": "^3.4.1",
+    "@types/storybook__react": "^4.0.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "classnames": "^2.2.6",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.0-alpha.1",
+    "react-docgen-typescript-loader": "^3.0.1",
+    "react-dom": "^16.8.0-alpha.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "typescript": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^4.1.11",
+    "@storybook/addon-links": "^4.1.11",
+    "@storybook/addons": "^4.1.11",
+    "@storybook/react": "^4.1.11",
+    "babel-loader": "^8.0.5"
+  }
+}

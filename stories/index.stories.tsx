@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react';
 
 // import { Button } from '@storybook/react/demo';
 
-import { BaseType } from '../components/button/demo'
+import { BaseType } from '../demo/button'
 
 // storiesOf('Welcome', module).add('to Storybook', () => <Welcome showApp={linkTo('Button')} />);
 

@@ -4,9 +4,10 @@
   "description": "show your components",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest --watch",
+    "coverage": "yarn test --coverage"
   },
   "repository": {
     "type": "git",
@@ -20,18 +21,28 @@
   "homepage": "https://github.com/MuYunyun/siren#readme",
   "dependencies": {
     "@types/classnames": "^2.2.7",
+    "@types/enzyme": "^3.1.16",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.13",
     "@types/react": "^16.8.1",
+    "@types/react-test-renderer": "^16.0.3",
     "@types/storybook__addon-actions": "^3.4.1",
     "@types/storybook__react": "^4.0.0",
     "awesome-typescript-loader": "^5.2.1",
     "classnames": "^2.2.6",
     "css-loader": "^2.1.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.0.0",
     "node-sass": "^4.11.0",
     "react": "^16.8.0-alpha.1",
     "react-docgen-typescript-loader": "^3.0.1",
     "react-dom": "^16.8.0-alpha.1",
+    "react-test-renderer": "^16.7.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "ts-jest": "^23.10.5",
     "typescript": "^3.3.1"
   },
   "devDependencies": {

@@ -8,7 +8,7 @@
     "allowJs": false,
     "jsx": "react",
     "moduleResolution": "node",
-    "rootDirs": ["components", "stories"],
+    "rootDirs": ["components", "stories", "test"],
     "baseUrl": "components",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
